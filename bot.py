@@ -65,4 +65,4 @@ async def guild(ctx):
 else accesstoguild.error
 
 #run bot with the functions
-bot.run('NDM4NDQ5NDAzMjYzNzEzMjgw.DcEyIg.jIUy8gyHURsM6y7GIMdNIeewm08')
+bot.run('[bot_token]')

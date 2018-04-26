@@ -1,6 +1,7 @@
 {
 	"perms":
 	{
-		"mod": ["Admin", "Mod"],
+		"lvl2": ["Admin"],
+		"lvl1": ["Mod"]
 	}
 }

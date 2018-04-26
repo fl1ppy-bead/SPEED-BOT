@@ -48,21 +48,5 @@ async def userinfo(ctx, user: discord.Member):
     await ctx.send("The user's highest role is: {}".format(user.top_role))
     await ctx.send("The user joined at: {}".format(user.joined_at))
 
-def is_in_guild(guild_id):
-    async def predicate(ctx):
-        return ctx.guild.id == guild_id
-    return commands.check(is_in_guild)
-
-def accesstoguild.error
-async def access(ctx, error):
-    if isinstance(error, commands.CheckFailure):
-        await ctx.send('access denied')
-
-@bot.command()
-if is_in_guild(438466152318894080)
-async def guild(ctx):
-    await ctx.send('stuff')
-else accesstoguild.error
-
 #run bot with the functions
 bot.run('[bot_token]')

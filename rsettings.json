@@ -1,0 +1,6 @@
+{
+	"perms":
+	{
+		"mod": ["Admin", "Mod"],
+	}
+}
